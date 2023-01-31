@@ -89,7 +89,7 @@ var autoBuyEnabled = true
 
 const updateSpeed = 20
 const baseLifespan = 365 * 70
-const baseGameSpeed = 50
+const baseGameSpeed = 500
 const heroIncomeMult = 2500000000000000000
 
 const permanentUnlocks = ["Quick task display", "Dark Matter", "Dark Matter Skills", "Challenges"]
@@ -147,10 +147,10 @@ const skillBaseData = {
     "Muscle Memory": { name: "Muscle Memory", maxXp: 100, heroxp: 42, effect: 0.01, description: "Strength XP"},
 
     "Mana Control": { name: "Mana Control", maxXp: 100, heroxp: 46, effect: 0.01, description: "T.A.A. XP"},
-    "Life Essence": { name: "Life Essence", maxXp: 100, heroxp: 82, effect: 0.1, description: "Longer Lifespan"},
-    "Time Warping": { name: "Time Warping", maxXp: 100, heroxp: 82, effect: 0.1, description: "Gamespeed"},
-    "Astral Body": { name: "Astral Body", maxXp: 100, heroxp: 100, effect: 0.3, description: "Longer lifespan"},
-    "Temporal Dimension": { name: "Temporal Dimension", maxXp: 100, heroxp: 115, effect: 0.5, description: "Gamespeed"},
+    "Life Essence": { name: "Life Essence", maxXp: 100, heroxp: 82, effect: 1, description: "Longer Lifespan"},
+    "Time Warping": { name: "Time Warping", maxXp: 100, heroxp: 82, effect: 0.5, description: "Gamespeed"},
+    "Astral Body": { name: "Astral Body", maxXp: 100, heroxp: 100, effect: 0.035, description: "Longer lifespan"},
+    "Temporal Dimension": { name: "Temporal Dimension", maxXp: 100, heroxp: 115, effect: 0.035, description: "Gamespeed"},
     "All Seeing Eye": { name: "All Seeing Eye", maxXp: 100, heroxp: 120, effect: 0.0027, description: "T.A.A Pay"},
     "Brainwashing": { name: "Brainwashing", maxXp: 100, heroxp: 145, effect: -0.01, description: "Reduced Expenses"},
 
@@ -163,12 +163,12 @@ const skillBaseData = {
     "Dark Knowledge": { name: "Dark Knowledge", maxXp: 100, heroxp: 180, effect: 0.003, description: "Class XP" },
 
     "Void Influence": { name: "Void Influence", maxXp: 100, heroxp: 206, effect: 0.0028, description: "All XP"},
-    "Time Loop": { name: "Time Loop", maxXp: 100, heroxp: 207, effect: 0.001, description: "Gamespeed"},
+    "Time Loop": { name: "Time Loop", maxXp: 100, heroxp: 207, effect: 0.5, description: "Gamespeed"},
     "Evil Incarnate": { name: "Evil Incarnate", maxXp: 100, heroxp: 208, effect: 0.01, description: "Skill XP" },
     "Absolute Wish": { name: "Absolute Wish", maxXp: 100, heroxp: 198, effect: 0.005, description: "Evil Gain" },
     "Void Amplification": { name: "Void Amplification", maxXp: 100, heroxp: 251, effect: 0.01, description: "The Void XP" },
     "Mind Release": { name: "Mind Release", maxXp: 100, heroxp: 251, effect: 0.0006, description: "Increased Happiness" },
-    "Ceaseless Abyss": { name: "Ceaseless Abyss", maxXp: 100, heroxp: 251, effect: 0.000585, description: "Longer Lifespan" },
+    "Ceaseless Abyss": { name: "Ceaseless Abyss", maxXp: 100, heroxp: 251, effect: 0.5, description: "Longer Lifespan" },
     "Void Symbiosis": { name: "Void Symbiosis", maxXp: 100, heroxp: 253, effect: 0.0015, description: "Skill XP" },
     "Void Embodiment": { name: "Void Embodiment", maxXp: 100, heroxp: 258, effect: 0.0025, description: "Evil Gain" },
     "Abyss Manipulation": { name: "Abyss Manipulation", maxXp: 100, heroxp: 266, effect: -0.01, description: "Reduced Expenses" },
