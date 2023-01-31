@@ -89,13 +89,13 @@ var autoBuyEnabled = true
 
 const updateSpeed = 20
 const baseLifespan = 365 * 70
-const baseGameSpeed = 4
+const baseGameSpeed = 50
 const heroIncomeMult = 2500000000000000000
 
 const permanentUnlocks = ["Quick task display", "Dark Matter", "Dark Matter Skills", "Challenges"]
 
 const jobBaseData = {
-    "Beggar": { name: "Beggar", maxXp: 50, income: 5, heroxp: 36 },
+    "Beggar": { name: "Beggar", maxXp: 50, income: 25000, heroxp: 36 },
     "Farmer": {name: "Farmer", maxXp: 100, income: 9, heroxp: 37 },
     "Fisherman": { name: "Fisherman", maxXp: 200, income: 15, heroxp: 38 },
     "Miner": { name: "Miner", maxXp: 400, income: 40, heroxp: 39 },
@@ -221,7 +221,7 @@ const itemBaseData = {
     "Dumbbells": { name: "Dumbbells", expense: 50, effect: 1.5, description: "Strength XP", heromult: 2 },
     "Personal Squire": { name: "Personal Squire", expense: 200, effect: 2, description: "Class XP", heromult: 3 },
     "Steel Longsword": { name: "Steel Longsword", expense: 1000, effect: 2, description: "Military XP", heromult: 3 },
-    "Butler": { name: "Butler", expense: 7500, effect: 1.5, description: "Happiness", heromult: 4 },
+    "Butler": { name: "Butler", expense: 7500, effect: 150000000, description: "Happiness", heromult: 4 },
     "Sapphire Charm": { name: "Sapphire Charm", expense: 50000, effect: 3, description: "Magic XP", heromult:4 },
     "Study Desk": { name: "Study Desk", expense: 1000000, effect: 2, description: "Ability XP", heromult: 5 },
     "Library": { name: "Library", expense: 10000000, effect: 2, description: "Ability XP", heromult: 5 },
