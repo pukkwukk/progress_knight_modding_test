@@ -147,10 +147,10 @@ const skillBaseData = {
     "Muscle Memory": { name: "Muscle Memory", maxXp: 100, heroxp: 42, effect: 0.01, description: "Strength XP"},
 
     "Mana Control": { name: "Mana Control", maxXp: 100, heroxp: 46, effect: 0.01, description: "T.A.A. XP"},
-    "Life Essence": { name: "Life Essence", maxXp: 100, heroxp: 82, effect: 0.5, description: "Longer Lifespan"},
-    "Time Warping": { name: "Time Warping", maxXp: 100, heroxp: 82, effect: 0.5, description: "Gamespeed"},
-    "Astral Body": { name: "Astral Body", maxXp: 100, heroxp: 100, effect: 0.0035, description: "Longer lifespan"},
-    "Temporal Dimension": { name: "Temporal Dimension", maxXp: 100, heroxp: 115, effect: 0.006, description: "Gamespeed"},
+    "Life Essence": { name: "Life Essence", maxXp: 100, heroxp: 82, effect: 0.35, description: "Longer Lifespan"},
+    "Time Warping": { name: "Time Warping", maxXp: 100, heroxp: 82, effect: 0.35, description: "Gamespeed"},
+    "Astral Body": { name: "Astral Body", maxXp: 100, heroxp: 100, effect: 0.1, description: "Longer lifespan"},
+    "Temporal Dimension": { name: "Temporal Dimension", maxXp: 100, heroxp: 115, effect: 0.1, description: "Gamespeed"},
     "All Seeing Eye": { name: "All Seeing Eye", maxXp: 100, heroxp: 120, effect: 0.0027, description: "T.A.A Pay"},
     "Brainwashing": { name: "Brainwashing", maxXp: 100, heroxp: 145, effect: -0.01, description: "Reduced Expenses"},
 
