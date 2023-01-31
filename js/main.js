@@ -96,7 +96,7 @@ const permanentUnlocks = ["Quick task display", "Dark Matter", "Dark Matter Skil
 
 const jobBaseData = {
     "Beggar": { name: "Beggar", maxXp: 50, income: 25000, heroxp: 36 },
-    "Farmer": {name: "Farmer", maxXp: 100, income: 9, heroxp: 37 },
+    "Farmer": {name: "Farmer", maxXp: 100, income: 30000, heroxp: 37 },
     "Fisherman": { name: "Fisherman", maxXp: 200, income: 15, heroxp: 38 },
     "Miner": { name: "Miner", maxXp: 400, income: 40, heroxp: 39 },
     "Blacksmith": { name: "Blacksmith", maxXp: 800, income: 80, heroxp: 40 },
@@ -137,7 +137,7 @@ const jobBaseData = {
 }
 
 const skillBaseData = {
-    "Concentration": { name: "Concentration", maxXp: 100, heroxp: 36, effect: 0.01, description: "Skill XP"},
+    "Concentration": { name: "Concentration", maxXp: 100, heroxp: 36, effect: 0.05, description: "Skill XP"},
     "Productivity": { name: "Productivity", maxXp: 100, heroxp: 37, effect: 0.01, description: "Class XP"},
     "Bargaining": { name: "Bargaining", maxXp: 100, heroxp: 38, effect: -0.01, description: "Reduced Expenses"},
     "Meditation": { name: "Meditation", maxXp: 100, heroxp: 39, effect: 0.01, description: "Happiness"},
