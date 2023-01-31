@@ -150,7 +150,7 @@ const skillBaseData = {
     "Life Essence": { name: "Life Essence", maxXp: 100, heroxp: 82, effect: 0.1, description: "Longer Lifespan"},
     "Time Warping": { name: "Time Warping", maxXp: 100, heroxp: 82, effect: 0.1, description: "Gamespeed"},
     "Astral Body": { name: "Astral Body", maxXp: 100, heroxp: 100, effect: 0.3, description: "Longer lifespan"},
-    "Temporal Dimension": { name: "Temporal Dimension", maxXp: 100, heroxp: 115, effect: 0.3, description: "Gamespeed"},
+    "Temporal Dimension": { name: "Temporal Dimension", maxXp: 100, heroxp: 115, effect: 0.5, description: "Gamespeed"},
     "All Seeing Eye": { name: "All Seeing Eye", maxXp: 100, heroxp: 120, effect: 0.0027, description: "T.A.A Pay"},
     "Brainwashing": { name: "Brainwashing", maxXp: 100, heroxp: 145, effect: -0.01, description: "Reduced Expenses"},
 
@@ -765,7 +765,7 @@ function getUnpausedGameSpeed() {
     const warpDrive = (gameData.requirements["Eternal Time"].isCompleted()) ? 2 : 1
     const speedSpeedSpeed = gameData.requirements["Speed speed speed"].isCompleted() ? 1000 : 1
 
-    const timeWarpingSpeed = timeWarping.getEffect() * temporalDimension.getEffect() * timeLoop.getEffect() * warpDrive * speedSpeedSpeed
+    const timeWarpingSpeed = timeWarping.getEffect() * temporalDimension.getEffect() * timeLoop.getEffect() * warpDrive * speedSpeedSpeed * 5
     const speedIsLife = gameData.dark_matter_shop.speed_is_life == 1 ? 3 : (gameData.dark_matter_shop.speed_is_life == 2 ? 7 : 1)
     const gameSpeed = baseGameSpeed * timeWarpingSpeed * getChallengeBonus("time_does_not_fly") * speedIsLife * getGottaBeFastGain()
 
