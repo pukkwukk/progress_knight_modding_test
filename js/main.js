@@ -163,7 +163,7 @@ const skillBaseData = {
     "Dark Knowledge": { name: "Dark Knowledge", maxXp: 100, heroxp: 180, effect: 0.003, description: "Class XP" },
 
     "Void Influence": { name: "Void Influence", maxXp: 100, heroxp: 206, effect: 0.0028, description: "All XP"},
-    "Time Loop": { name: "Time Loop", maxXp: 100, heroxp: 207, effect: 0.5, description: "Gamespeed"},
+    "Time Loop": { name: "Time Loop", maxXp: 100, heroxp: 207, effect: 0.01, description: "Gamespeed"},
     "Evil Incarnate": { name: "Evil Incarnate", maxXp: 100, heroxp: 208, effect: 0.01, description: "Skill XP" },
     "Absolute Wish": { name: "Absolute Wish", maxXp: 100, heroxp: 198, effect: 0.005, description: "Evil Gain" },
     "Void Amplification": { name: "Void Amplification", maxXp: 100, heroxp: 251, effect: 0.01, description: "The Void XP" },
