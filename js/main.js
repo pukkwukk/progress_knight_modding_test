@@ -89,7 +89,7 @@ var autoBuyEnabled = true
 
 const updateSpeed = 20
 const baseLifespan = 365 * 70
-const baseGameSpeed = 500
+const baseGameSpeed = 80
 const heroIncomeMult = 2500000000000000000
 
 const permanentUnlocks = ["Quick task display", "Dark Matter", "Dark Matter Skills", "Challenges"]
