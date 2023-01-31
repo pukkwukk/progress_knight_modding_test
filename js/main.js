@@ -175,7 +175,7 @@ const skillBaseData = {
 
     "Cosmic Longevity": { name: "Cosmic Longevity", maxXp: 100, heroxp: 266, effect: 0.0015, description: "Longer Lifespan" },
     "Cosmic Recollection": { name: "Cosmic Recollection", maxXp: 100, heroxp: 272, effect: 0.00065, description: "Max Lvl Multiplier" },
-    "Essence Collector": { name: "Essence Collector", maxXp: 100, heroxp: 288, effect: 0.08, description: "Essence Gain" },
+    "Essence Collector": { name: "Essence Collector", maxXp: 100, heroxp: 288, effect: 0.2, description: "Essence Gain" },
     "Galactic Command": { name: "Galactic Command", maxXp: 100, heroxp: 290, effect: -0.01, description: "Reduced Expenses" },
 
     "Yin Yang": { name: "Yin Yang", maxXp: 100, heroxp: 290, effect: 0.2, description: "Essence + Evil Gain" },
